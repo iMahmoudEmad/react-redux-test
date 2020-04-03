@@ -8,6 +8,7 @@ import BlelaContainer from './components/BlelaContainer';
 import NewCakeContainer from './components/NewCakeContainer';
 import HooksCakeContainer from './components/HooksCakeContainer';
 import ItemContainer from './components/ItemContainer';
+import UserContainer from './components/UserContainer';
 
 const App = () => {
   return (
@@ -26,6 +27,8 @@ const App = () => {
         <IceCreamContainer />
         <hr />
         <BlelaContainer />
+        <hr />
+        <UserContainer />
       </div>
     </Provider>
   );
